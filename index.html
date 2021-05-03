@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta name="description" content="Szukasz noclegu a może kwatery w Piwniczna Zdrój? Wejdź na naszą stronę i zamów nocleg dla siebie i rodziny." />
+  <meta name="keywords" content="tanie noclegi Piwniczna-Zdrój, kwatery Piwniczna-Zdrój, wypoczynek Piwniczna-Zdrój, wczasy piwniczna zdrój" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/css/w3.css">
+  <link rel="stylesheet" href="src/css/style.css?1">
+  <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <script src="src/js/imgexplorer.js?1"></script>
+  <meta charset="utf-8">
+
+  <title>Domek w górach - Piwniczna Zdrój</title>
+</head>
+<body class="noselect" style="font-family: 'Lato';">
+  </br>
+    <div class="bcontainer">
+      <img src="src/img/banner1.webp" alt="Banner" style="width:100%;">
+      <div class="centered">Domek w górach</div>
+    </div>
+
+    </br>
+    </br>
+
+    <h1 style="text-align: center; font-weight: bold;">ZDJĘCIA</h1>
+    <div id="gallery" style="margin-left: auto; margin-right: auto; width: 80%;">
+      <div class="w3-row-padding w3-margin-top">
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="src/img/1.webp" style="width: 100%" alt="">
+            <div class="w3-container">
+              <h5>Aneks kuchenny</h5>
+            </div>
+          </div>
+        </br>
+        </div>
+      
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="src/img/2.webp" style="width: 100%" alt="">
+            <div class="w3-container">
+              <h5>2 lazienki z prysznicami</h5>
+            </div>
+          </div>
+        </br>
+        </div>
+      
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="src/img/3.png" style="width: 100%" alt="">
+            <div class="w3-container">
+              <h5>2 pokoje 3 osobowe</h5>
+            </div>
+          </div>
+        </div>
+        </br>
+      </div>
+      
+      <div class="w3-row-padding w3-margin-top">
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="src/img/4.png" style="width: 100%" alt="">
+            <div class="w3-container">
+              <h5>Telewizja naziemna</h5>
+            </div>
+          </div>
+        </br>
+        </div>
+      
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="src/img/5.png" style="width: 100%" alt="">
+            <div class="w3-container">
+              <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+            </div>
+          </div>
+        </br>
+        </div>
+      
+        <div class="w3-third">
+          <div class="w3-card">
+            <img src="src/img/6.png" style="width: 100%" alt="">
+            <div class="w3-container">
+              <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+            </div>
+          </div>
+        </div>
+        </br>
+      </div>
+    </div>
+
+    <br>
+    <div style="display: flex; justify-content: center; align-items: center;">
+      <button onclick="show()" class="w3-btn w3-white w3-border w3-border-gray w3-round-large show-imgs">ZOBACZ WIĘCEJ ZDJĘĆ</button>
+    </div>
+
+    <br>
+
+    <div class="show-imgs" style="position: absolute; left: 50%; transform: translateX(-50%); display: flex; padding-bottom: 5px;">
+      <div style="display: flex; justify-content: center; align-items: center; flex: 25%;">
+        <a href="https://booking.com/hotel/pl/domek-w-gorach-jana-iii-sobieskiego-12-33-350-piwniczna-zdroj-polska-apartament.pl.html"><img src="/src/img/booking.png" height="50px"></a>
+      </div>
+      <div style="display: flex; justify-content: center; align-items: center; flex: 25%;">
+        <a href="mailto:urszulas07@poczta.onet.pl"><img src="/src/img/mail.png" height="50px"></a>
+      </div>
+      <div style="display: flex; justify-content: center; align-items: center; flex: 25%;">
+        <a href="tel:+48503799369"><img src="/src/img/phone-symbol-2.png" height="50px"></a>
+      </div>
+      <div style="display: flex; justify-content: center; align-items: center; flex: 25%;">
+        <a href="https://www.google.pl/maps/place/Sobieskiego+12,+33-350+Piwniczna-Zdr%C3%B3j/@49.4403743,20.7105507,17z"><img src="/src/img/maps.png" height="50px"></a>
+      </div>
+    </div>
+    <br>
+    <div id="blur" class="blur"></div>
+    <div class="sticky" id="sticky">
+			<img id="simage" src="galeria/1.webp" alt="">
+			<span class="close" onclick="hide()">&times;</span>
+      <span style="position: absolute; right: 0; top: 50%; transform:translate(0%, -50%);" id="next" class="navi" onclick="next()">&#8250;</span>
+      <span style="position: absolute; left: 0; top: 50%; transform:translate(0%, -50%); display: none;" id="prev" class="navi" onclick="prev()">&#8249;</span>
+      <div style="position: absolute; left: 50%; top: 50%; transform:translate(-50%, -50%); display: none;" id="loading" class="lds-ring"><div></div><div></div><div></div><div></div></div>
+		</div>
+  </body>
+</html> 
