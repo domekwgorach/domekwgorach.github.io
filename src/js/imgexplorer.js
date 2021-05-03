@@ -9,8 +9,8 @@ function show(){
 
 function next(){
     imgId++;
-    if(imgId >= 41) {
-        imgId = 41;
+    if(imgId >= 44) {
+        imgId = 44;
         document.getElementById("next").style.display = "none";
     }
     document.getElementById("loading").style.display = "block"
